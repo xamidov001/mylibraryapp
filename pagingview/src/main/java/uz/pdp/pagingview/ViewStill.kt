@@ -9,6 +9,7 @@ import kotlin.math.abs
 object ViewStill {
 
     fun create(viewPager: ViewPager2) {
+        viewPager.setPaddingRelative(30, 0, 30, 0)
         viewPager.clipToPadding = false
         viewPager.clipChildren = false
         viewPager.offscreenPageLimit = 1
